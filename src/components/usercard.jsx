@@ -1,28 +1,21 @@
 // write the component code here
 import React from "react";
+import "./Usercard.css";
+import profilePhoto from "../assets/Profile.png";
 
-const Usercard = ()=>{
-    const profilePhoto = "./src/assets/myphoto.jpg";
-     const name = "Sadvika";
-     const email = "uppalasadvika06@gmail.com";
-     const phone = "9256944379";
-     const address = "1234 Main St,City ,State,1234";
+const Usercard = () => {
+  
+  const name = "Sreenija";
+  const email = "sreeyadalla@gmail.com";
+  const phone = "7995775302";
 
-
-return(
-    <div>
-        <img src={profilePhoto}/>
-        <h2>{name}</h2>
-        <p>{email}</p>
-        <p>{phone}</p>
-        <p>{address}</p>
+  return (
+    <div className="user-card">
+      <img src={profilePhoto} alt="Profile" className="profile-photo" />
+      <h1>{name}</h1>
+      <p className="email">{email}</p>
+      <p className="phone">{phone}</p>
     </div>
-
-
-
-);
-
-
-
+  );
 };
-export default Usercard;
+export default Usercard;

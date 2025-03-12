@@ -1,0 +1,29 @@
+.user-card {
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 16px;
+  width: 250px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.profile-photo {
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color:black;
+}
+
+.email, .phone {
+  color: #555;
+  margin-top: 5px;
+}
